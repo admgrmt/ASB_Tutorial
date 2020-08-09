@@ -25,7 +25,7 @@ drawPeach <- function(canvas) {
   canvas + 
     geom_polygon(
       data=peach,
-      fill='peru', 
+      fill= rgb(0.506, 0.0, 0.937), 
       color='black', 
       size=1, 
       aes(x=x, y=y))     
