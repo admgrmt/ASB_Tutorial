@@ -1,3 +1,4 @@
+conda instal pandas
 #!/usr/bin/env python
 '''
 	main_script.py
