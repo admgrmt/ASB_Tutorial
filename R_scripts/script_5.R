@@ -15,12 +15,12 @@ library(ggplot2)
 drawSubtitle <- function(canvas) {
   # Add a subtitle to an existing ggplot2 context
 
-  msg <- 'Reviewer 2\n is the best'
+  msg <- format(Sys.Date(), '%Y')
 
   canvas +
     geom_text(label=msg,
               aes(x=3, y=-3.5),
-              color='green',
+              color='black',
               size=12)
 }
 
