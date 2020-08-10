@@ -24,7 +24,7 @@ drawASBLogo <- function(canvas) {
   canvas + 
     geom_path(data=logo,
               aes(x=x,y=y),
-              color='black', 
+              color='red', 
               size=6)
   
 }
