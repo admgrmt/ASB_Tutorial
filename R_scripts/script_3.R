@@ -29,11 +29,11 @@ drawStemAndHalo <- function(canvas) {
     geom_path(data=stem, 
               aes(x=x,y=y),
               color='black',
-              size=10) + 
+              size=1) + 
     geom_path(data=halo, 
               aes(x=x, y=y),
               color='black',
-              size=10)
+              size=1)
   
 }
 
