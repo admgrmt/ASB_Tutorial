@@ -22,7 +22,7 @@ drawLeaf <- function(canvas) {
   
   # plot data
   canvas + geom_polygon(data=leaf,
-                 fill=rgb(0.792, 0.647, 0.278), 
+                 fill='forestgreen', 
                  color='black', 
                  size=1, 
                  aes(x=x, y=y))  
